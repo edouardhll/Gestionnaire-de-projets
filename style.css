@@ -1,0 +1,85 @@
+:root {
+    --bg-color: #E0E2E8;
+    --lightgrey-color: #B0C0D4;
+    --bg2-color: #5DA5B3;
+    --grey-color: #394054;
+    --black-color: #1C1C1F;
+    --border-color: rgba(57, 64, 84, 0.2);
+    --section-width: 1200px;
+
+}
+
+@font-face {
+    font-family: 'play-bold';
+    src: url("fonts/Play/Play-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'play' ;
+    src: url("fonts/Play/Play-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'fira-code';
+    src: url(fonts/Fira_Code/FiraCode-VariableFont_wght.ttf) format("truetype");
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+caption {
+  caption-side: bottom;
+  padding: 10px;
+  font-weight: bold;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
+}
+
+
+.white-button{
+    background-color: var(--bg-color);
+    padding: 1px 0px;
+    border-radius: 45px;
+    min-width: 225px;
+    border-width: 2px;
+    border-style:solid;
+    border-color: var(--bg2-color);
+    color: var(--bg2-color);
+    transition-duration: 200ms;
+    
+}
+.white-button:hover{
+    background-color: var(--bg2-color);
+    border-color: white;
+    color: white;
+}
